@@ -471,6 +471,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_INCLUDE_PATHS = Sources/BridgeHeader;
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = MusicPlayer;
 			};
 			name = Debug;
@@ -498,6 +499,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_INCLUDE_PATHS = Sources/BridgeHeader;
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = MusicPlayer;
 			};
 			name = Release;
