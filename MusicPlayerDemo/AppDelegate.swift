@@ -77,7 +77,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, MusicPlayerManagerDelegate {
     }
     
     private func append(log: String) {
-        var str = textView.string;
+        var str = textView.string
         str.append(log+"\n")
         textView.string = str
         textView.scrollRangeToVisible(NSRange(location: str.characters.count - 1, length: 1))
