@@ -97,6 +97,6 @@ extension SpotifyTrack {
         if let spotifyUrl = spotifyUrl {
             url = URL(fileURLWithPath: spotifyUrl)
         }
-        return MusicTrack(id: id, title: title, album: album, artist: artist, duration: TimeInterval(duration), artwork: artwork, lyrics: nil, url: url, originalTrack: self as? SBObject)
+        return MusicTrack(id: id, title: title, album: album, artist: artist, duration: TimeInterval(duration/1000), artwork: artwork, lyrics: nil, url: url, originalTrack: self as? SBObject)
     }
 }
